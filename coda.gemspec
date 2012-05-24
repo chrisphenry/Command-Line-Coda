@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
     s.name        = "coda"
-    s.version     = "0.0.1"
-    s.date        = "2012-03-09"
+    s.version     = "0.0.2"
+    s.date        = "2012-05-24"
     s.summary     = "Open files with Coda from the command line."
     s.description = "Open files with Coda from the command line."
     s.author      = "Aditya Bhargava"
