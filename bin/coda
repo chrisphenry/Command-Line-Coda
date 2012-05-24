@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 require 'fileutils'
 
-CODAPATH = ENV['CODAPATH'] || "/Applications/Coda.app"
+CODAPATH = ENV['CODAPATH'] || "/Applications/Coda 2.app"
 
 def help
   puts "Usage: #{$0} [filename(s) / directory name(s)]"
