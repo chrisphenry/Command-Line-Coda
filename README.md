@@ -31,5 +31,6 @@ Open or Create the `.bash_profile` file which belongs here (home folder): `~/` -
 #### Step 2
 Add the line: `CODAPATH="Path/Coda 2.app"` exactly as shown (with quotes around the path itself) + save.
 
-Updated by [Chris Henry](https://chrisphenry@github.com). Can't see it breaking your computer!
+Updated by [Chris Henry](https://github.com/chrisphenry). Can't see it breaking your computer!
+
 Written by [Aditya Bhargava](http://adit.io). No warranty is implied, use at your own risk.
