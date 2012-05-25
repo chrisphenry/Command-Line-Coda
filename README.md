@@ -14,12 +14,22 @@ Command-Line Coda is a script for [Panic](http://panic.com)'s Coda. It allows yo
 
 	gem install coda
 
-## Setting Coda's path
+## Updates (chrisphenry)
 
-By default, we assume that Coda lives at `/Applications/Coda.app`. To override this path, set the `CODAPATH` variable:
+## Coda 2 Support
+This version of Command Line Coda has been specifically updated to support Coda 2 by default.
+>> the need for a .bash_profile or modification thereof is not required if Coda 2 is living in your User/Applications
+folder.
+>> direct bin/coda file is hardcoded: `CODAPATH = ENV['CODAPATH'] || "/Applications/Coda 2.app"`
 
-	CODAPATH=/User/Applications/Coda.app coda test.txt
+## Setting Coda's path (optional)
+>> by deafult we assume the location of Coda 2 is the OS default: `/User/Applications/Coda 2.app`
+>> to override the default path do the following:
 
-Put it in your `.bash_profile` so you don't have to set it each time.
+#### Step 1
+Open or Create the `.bash_profile` file which belongs here (home folder): `~/` -if it doesn't exist, you must create it -the "." is required in the filename. 
+#### Step 2
+Add the line: `CODAPATH="Path/Coda 2.app"` exactly as shown (with quotes around the path itself) + save.
 
+Updated by [Chris Henry](https://chrisphenry@github.com). Can't see it breaking your computer!
 Written by [Aditya Bhargava](http://adit.io). No warranty is implied, use at your own risk.
